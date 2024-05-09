@@ -1,0 +1,90 @@
+.ask-questions-container {
+    width: 100%;
+    /* Full width */
+    font-family: "Roboto", sans-serif;
+}
+
+.faq-heading {
+    font-size: 50px;
+    margin-left: 20px
+        /* Adjust font size as needed */
+}
+
+.what {
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+/* AskQuestions.css */
+
+.icon-wrapper {
+    position: absolute;
+    /* Absolute positioning to control icon placement */
+    top: 10px;
+    /* Position at the top */
+    right: 10px;
+    /* Position at the top-right corner */
+}
+
+.faq-heading {
+    font-size: 35px;
+    /* Adjust font size as needed */
+}
+
+.question {
+    display: flex;
+    /* Flex layout */
+    flex-direction: row;
+    /* Horizontal alignment */
+    justify-content: flex-end;
+    /* Align to the rightmost side */
+    padding: 10px 0;
+    /* Padding for spacing */
+    cursor: pointer;
+    /* Indicate that text is clickable */
+    text-align: left;
+    font-size: 25px;
+}
+
+
+.toggle-sign {
+    margin-left: 10px;
+    /* Gap between text and toggle sign */
+}
+
+.divider {
+    width: 100%;
+    /* Full-width divider */
+    border: none;
+    /* No border */
+    border-top: 1px solid #ddd;
+    /* Light divider */
+}
+
+.arrow {
+    position: absolute;
+    /* Absolute positioning within the container */
+    bottom: 0;
+    /* Position at the bottom */
+    left: 0;
+    /* Position at the leftmost corner */
+    width: 0;
+    /* Set width for the triangle */
+    height: 0;
+    /* Set height for the triangle */
+    border-left: 50px solid transparent;
+    /* Transparent left border for triangle shape */
+    border-right: 50px solid transparent;
+    /* Transparent right border */
+    border-top: 50px solid rgba(255, 255, 255, 0.5);
+    /* Transparent top border for the triangle's peak */
+    transform: rotate(-45deg);
+    /* Rotate to create a growing effect */
+    transition: all 0.5s ease;
+    /* Smooth transition for any animations */
+}
+
+.arrow:hover {
+    border-top: 50px solid rgba(255, 255, 255, 0.8);
+    /* Darker border on hover for the growing effect */
+}

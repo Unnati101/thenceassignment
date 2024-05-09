@@ -1,0 +1,95 @@
+.success-container {
+    display: flex;
+    flex-direction: column;
+    /* Arrange elements in a column */
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+    min-height: 100vh;
+    /* Full viewport height */
+    background: white;
+    /* Gradient background */
+    text-align: center;
+    /* Center text */
+}
+
+.check-circle {
+    background-color: green;
+    /* Black background for the circular box */
+    color: white;
+    /* White color for the check mark */
+    border-radius: 50%;
+    /* Circular shape */
+    width: 60px;
+    /* Set size */
+    height: 60px;
+    /* Set size */
+    display: flex;
+    /* Use flex to center content */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    font-size: 2em;
+    /* Larger font size for the check mark */
+}
+
+.success-text {
+    font-size: 1.5em;
+    /* Font size for the success message */
+    color: green;
+    /* Dark color */
+    margin-top: 20px;
+    /* Space above */
+    font-style: italic;
+}
+
+.congratulations-heading {
+    font-size: 80px;
+    /* Bold heading */
+    color: black;
+    /* Dark color */
+    margin-top: 10px;
+    /* Space above */
+    font-family: sans-serif;
+}
+
+.company-heading {
+    position: absolute;
+    /* Position absolute for top left corner */
+    top: 20px;
+    /* Adjust the distance from the top */
+    left: 20px;
+    /* Adjust the distance from the left */
+    font-size: 2em;
+    /* Font size for the company heading */
+    color: #333;
+    /* Dark color for the company heading */
+}
+
+.additional-text {
+    font-size: 35px;
+    /* Smaller font size */
+    color: #555;
+    /* Dark gray color */
+    margin-top: 10px;
+    /* Space above */
+    font-family: sans-serif;
+}
+
+.redirect-message {
+    font-size: 20px;
+    /* Font size for the redirect message */
+    color: #777;
+    /* Lighter gray color */
+    margin-top: 20px;
+    /* Space above */
+}
+
+.countdown {
+    font-weight: bold;
+    /* Bold font weight */
+    color: black;
+    /* Black color */
+}

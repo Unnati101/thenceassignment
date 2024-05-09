@@ -1,0 +1,37 @@
+.close-button {
+    position: absolute;
+    /* Absolute positioning */
+    top: 20px;
+    /* Distance from the top */
+    right: 20px;
+    /* Distance from the right */
+    background-color: white;
+    /* Black background */
+    color: black;
+    /* White text for the cross sign */
+    border-radius: 50%;
+    /* Circular shape */
+    width: 40px;
+    /* Equal width and height for a round button */
+    height: 40px;
+    /* Equal height for a round button */
+    display: flex;
+    /* Use flex to center the content */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    font-size: 1.5em;
+    /* Size for the cross sign */
+    cursor: pointer;
+    /* Indicates clickable */
+    transition: background-color 0.3s;
+    /* Smooth transitions */
+}
+
+.close-button:hover {
+    background-color: #333;
+    /* Darker shade on hover */
+    color: #fff;
+    /* White text on hover */
+}

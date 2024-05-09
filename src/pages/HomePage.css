@@ -1,0 +1,347 @@
+.home-container {
+    text-align: center;
+    /* Center text */
+    min-height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+    background: white;
+    /* Gradient background */
+}
+
+.round-container {
+    padding: 15px;
+    /* Padding around the link */
+    border-radius: 50px;
+    /* Round border radius */
+    background-color: white;
+    /* White background for the round container */
+    margin-bottom: 20px;
+    /* Add some space below the round container */
+    display: inline-block;
+    /* Ensure the container size fits the content */
+}
+
+.link {
+    text-decoration: none;
+    /* No underline */
+    color: #333;
+    /* Dark color for text */
+    font-size: 1.2em;
+    /* Font size for the link */
+    padding: 10px 20px;
+    /* Padding for the link itself */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transitions */
+}
+
+.link:hover {
+    background-color: #333;
+    /* Darker background on hover */
+    color: white;
+    /* White text on hover */
+}
+
+.Onboard-Talent-Button {
+    background-color: #333;
+    border-radius: 50px;
+}
+
+.home-container {
+    text-align: center;
+    /* Center the text */
+    min-height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Start from the top */
+    align-items: center;
+    /* Center horizontally */
+    background: white;
+    /* Gradient background */
+}
+
+.success-heading {
+    margin-top: 20px;
+    /* Space between Navbar and heading */
+    font-size: 1.8em;
+    /* Font size for the heading */
+    color: rgb(1, 181, 1);
+    /* Dark color */
+    font-family: "Briem Hand";
+}
+
+.success-description {
+    font-size: 60px;
+    /* Font size for the description */
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    /* Space below the heading */
+}
+
+.explore {
+    /* 30px from the right */
+    background-color: black;
+    /* Black background */
+    color: white;
+    /* White text */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10%;
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+
+
+.enhance-content {
+
+    color: black;
+    height: 30px;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 140px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+
+.explore-more-button:hover {
+
+    background-color: #333;
+    /* Slightly lighter black on hover */
+    color: white;
+    /* Ensure the text stays white */
+}
+
+.mid-container {
+    display: flex;
+    /* Use flex to align content */
+    justify-content: flex-start;
+    /* Align items to the left */
+    /* Ensure it spans the entire width */
+    padding: 60px;
+    /* Add padding */
+    margin-bottom: 200px;
+}
+
+.office-image {
+    width: 500px;
+    /* Increase the image size */
+    border-radius: 20%;
+    /* Rounded corners */
+    transition: transform .3s;
+    position: relative;
+    margin-left: 120px;
+}
+
+.office-image:hover {
+    transform: scale(1.1)
+}
+
+.large-ask-questions {
+    background-color: rgb(230, 234, 229);
+    /* White background for the section */
+    border: 1px solid #ddd;
+    /* Light border */
+    border-radius: 15px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Padding inside the section */
+    width: 95%;
+    /* Reduced width for smaller margins */
+    margin: 0 auto;
+    /* Center the container */
+    margin-top: 50px;
+    /* Gap above the container */
+}
+
+.footer-container {
+    background-color: lightgray;
+    /* White background for the section */
+    border: 1px solid #ddd;
+    /* Light border */
+    border-radius: 15px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    /* Padding inside the section */
+    width: 95%;
+    /* 95% of the page width */
+    height: 60px;
+    margin: 20px auto;
+    /* Center the container */
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center vertically */
+    justify-content: space-between;
+    /* Space between elements */
+    font-family: "Roboto", sans-serif;
+
+}
+
+.footer-container p {
+    margin: 0;
+    /* Remove default margin */
+}
+
+.links a {
+    text-decoration: underline;
+    /* Underline links */
+    color: blue;
+    /* Link color */
+}
+
+.links a:hover {
+    color: darkblue;
+    /* Link color on hover */
+}
+
+.separator {
+    margin: 0 5px;
+    /* Space between separators */
+}
+
+.transparent-arrow {
+    position: absolute;
+    /* Absolute positioning within the parent */
+    bottom: 0;
+    /* Position at the bottom */
+    left: 0;
+    /* Position at the leftmost corner */
+    width: 0;
+    /* Width for triangle */
+    height: 0;
+    /* Height for triangle */
+    border-left: 50px solid transparent;
+    /* Transparent left border */
+    border-right: 50px solid transparent;
+    /* Transparent right border */
+    border-top: 50px solid rgba(255, 255, 255, 0.5);
+    /* Transparent top border with some opacity */
+}
+
+.Imgt1 {
+    position: absolute;
+    color: white;
+    background-color: rgb(0, 46, 0);
+    font-size: 30px;
+    border-radius: 10%;
+    margin-top: 350px;
+    transition: transform .3s;
+    margin-left: 400px;
+    padding: 40px;
+    box-shadow: 0px 0px 0px 3px #646464;
+}
+
+.Imgt1:hover {
+    transform: scale(1.1)
+}
+
+.img1p1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+}
+
+.img1p2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.img1p3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+}
+
+.Imgt2 {
+    position: absolute;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 20%;
+    margin-top: 5px;
+    transition: transform .3s;
+    margin-right: auto;
+    text-align: left;
+    box-shadow: 1px 1px 2px 1px #7a7a7a;
+    padding-right: 45px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.Imgt2:hover {
+    transform: scale(1.1)
+}
+
+.img2p1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 0px;
+}
+
+.img2p2 {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    padding: 0px
+}
+
+.img2 {
+    width: 40px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+}
+
+.Imgt3 {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 30%;
+    margin-top: 350px;
+    transition: transform .3s;
+    box-shadow: 1px 0px 1px #636363;
+    padding-top: 10px;
+}
+
+.Imgt3:hover {
+    transform: scale(1.1)
+}
+
+.img3 {
+    width: 70px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.img3p1 {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+.img3p2 {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    padding-right: 30px;
+    text-align: left;
+}
